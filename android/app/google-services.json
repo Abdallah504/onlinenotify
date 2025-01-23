@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857294907420",
+    "project_id": "onlinenotify-95f03",
+    "storage_bucket": "onlinenotify-95f03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857294907420:android:1be282727f9c414dd7d7d9",
+        "android_client_info": {
+          "package_name": "com.example.onlinenotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArGclmo6dLgPbH-FCv46Xe-aGBvIAwYpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
