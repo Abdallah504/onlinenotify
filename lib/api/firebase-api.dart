@@ -10,8 +10,8 @@ class FirebaseApi{
 
   Future<void>initNotify()async{
     await _firebaseMessaging.requestPermission();
-    final fcmToken = await _firebaseMessaging.getToken();
-    print('Token : $fcmToken');
+    // final fcmToken = await _firebaseMessaging.getToken();
+    // print('Token : $fcmToken');
     initPushNotify();
   }
 }
@@ -44,7 +44,8 @@ Future initPushNotify()async{
     NotificationDetails(
       android: AndroidNotificationDetails(androidChannel.id, androidChannel.name,
       channelDescription: androidChannel.description,
-        icon: '@drawable/ic_launcher'
+        icon: '@drawable/ic_launcher',
+        channelShowBadge: true
       )
     )  ,
     payload: jsonEncode(message.toMap())
